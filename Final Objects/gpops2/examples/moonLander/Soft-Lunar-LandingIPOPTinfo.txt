@@ -1,0 +1,63 @@
+This is Ipopt version trunk, running with linear solver mumps.
+
+Number of nonzeros in equality constraint Jacobian...:      532
+Number of nonzeros in inequality constraint Jacobian.:        1
+Number of nonzeros in Lagrangian Hessian.............:      127
+
+Total number of variables............................:       96
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:       96
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:       65
+Total number of inequality constraints...............:        1
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        1
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0 8.7831128e+000 7.42e-002 9.76e-002   0.0 0.00e+000    -  0.00e+000 0.00e+000   0
+   1 8.7941919e+000 7.01e-003 1.26e-001  -5.0 3.28e-002    -  7.98e-001 9.04e-001h  1
+   2 8.7932482e+000 1.01e-006 1.64e-001  -5.7 2.60e-002    -  6.14e-001 1.00e+000h  1
+   3 8.7894655e+000 2.38e-006 2.63e-002  -6.1 5.53e-002    -  8.14e-001 6.06e-001f  1
+   4 8.7894039e+000 2.36e-006 1.53e-002  -6.8 1.37e-001    -  1.36e-001 9.15e-003h  1
+   5 8.7900467e+000 2.43e-006 1.54e-001  -3.0 1.90e+000    -  2.75e-001 3.09e-002f  1
+   6 8.8118331e+000 3.87e-004 2.19e-001  -1.1 7.31e+001    -  1.36e-002 1.88e-002f  1
+   7 8.8225849e+000 4.20e-004 3.71e-001  -1.1 2.21e+001    -  4.07e-002 8.17e-003f  1
+   8 8.8497032e+000 2.96e-004 3.12e-001  -1.1 1.52e+002    -  3.49e-002 1.91e-002f  1
+   9 8.9949305e+000 6.33e-003 2.61e-001  -1.1 1.60e+001    -  5.45e-002 1.43e-001f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10 9.1159548e+000 9.33e-003 3.96e+000  -1.1 1.18e+001    -  1.00e+000 1.48e-001f  1
+  11 9.5910268e+000 3.00e-002 7.52e-001  -1.1 1.38e+000    -  6.90e-001 1.00e+000f  1
+  12 9.1794072e+000 2.03e-002 1.06e-001  -1.8 4.74e-001    -  9.58e-001 1.00e+000h  1
+  13 8.8537450e+000 2.38e-002 1.87e-001  -2.7 9.45e-001    -  8.31e-001 1.00e+000h  1
+  14 8.8431118e+000 7.02e-005 1.52e-001  -2.7 4.44e-001    -  7.91e-001 1.00e+000h  1
+  15 8.8266113e+000 3.95e-004 4.05e-005  -2.7 1.28e+000    -  1.00e+000 1.00e+000h  1
+  16 8.8025946e+000 2.98e-004 2.24e-002  -4.0 5.22e-001    -  8.26e-001 6.93e-001h  1
+  17 8.7880936e+000 1.59e-004 3.53e-004  -4.0 1.53e+000    -  8.21e-001 9.00e-001h  1
+  18 8.7847079e+000 4.08e-005 1.86e-003  -4.7 1.04e+000    -  9.45e-001 7.93e-001h  1
+  19 8.7838296e+000 9.70e-007 1.30e-005  -4.7 7.68e-001    -  9.82e-001 1.00e+000h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  20 8.7831964e+000 2.95e-007 1.20e-004  -6.8 2.06e-001    -  9.35e-001 1.00e+000h  1
+  21 8.7831870e+000 2.48e-010 2.07e-008  -8.0 4.22e-002    -  1.00e+000 1.00e+000h  1
+
+Number of Iterations....: 21
+
+                                   (scaled)                 (unscaled)
+Objective...............:  8.7831869919215375e+000   8.7831869919215375e+000
+Dual infeasibility......:  2.0688546067109750e-008   2.0688546067109750e-008
+Constraint violation....:  2.4767306261441746e-010   2.4767306261441746e-010
+Complementarity.........:  1.6717882416261574e-008   1.6717882416261574e-008
+Overall NLP error.......:  2.0688546067109750e-008   2.0688546067109750e-008
+
+
+Number of objective function evaluations             = 22
+Number of objective gradient evaluations             = 22
+Number of equality constraint evaluations            = 22
+Number of inequality constraint evaluations          = 22
+Number of equality constraint Jacobian evaluations   = 22
+Number of inequality constraint Jacobian evaluations = 22
+Number of Lagrangian Hessian evaluations             = 21
+Total CPU secs in IPOPT (w/o function evaluations)   =      0.032
+Total CPU secs in NLP function evaluations           =      0.093
+
+EXIT: Optimal Solution Found.

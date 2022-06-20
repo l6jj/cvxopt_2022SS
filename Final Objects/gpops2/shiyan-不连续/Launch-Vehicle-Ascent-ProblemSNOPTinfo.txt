@@ -1,0 +1,110 @@
+      Timing level               3
+      Hessian Limited Memory
+      Verify Level              -1
+      Iteration Limit          100000
+      Major Iterations Limit          100000
+      Minor Iterations Limit          100000
+      Derivative Option               1
+1
+ 
+ Parameters
+ ==========
+
+ Files
+ -----
+ Solution file..........         0       Old basis file ........         0       Standard input.........         5
+ Insert file............         0       New basis file ........         0       (Printer)..............         9
+ Punch file.............         0       Backup basis file......         0       (Specs file)...........         0
+ Load file..............         0       Dump file..............         0       Standard output........         6
+
+ Frequencies
+ -----------
+ Print frequency........       100       Check frequency........        60       Save new basis map.....       100
+ Summary frequency......       100       Factorization frequency        50       Expand frequency.......     10000
+
+ QP subproblems
+ --------------
+ QPsolver Cholesky......
+ Scale tolerance........      .900       Minor feasibility tol..  1.00E-06       Iteration limit........    100000
+ Scale option...........         0       Minor optimality  tol..  1.00E-06       Minor print level......         1
+ Crash tolerance........      .100       Pivot tolerance........  3.25E-11       Partial price..........         1
+ Crash option...........         3       Elastic weight.........  1.00E+04       Prtl price section ( A)     56980
+                                         New superbasics........        99       Prtl price section (-I)     40699
+
+ Conjugate-gradient QP solver
+ ----------------------------
+ Subspace tolerance.....    .10000       CG tolerance...........  1.00E-02       CG Iterations..........       100
+                                                                                 CG preconditioning.....         0
+
+ The SQP Method
+ --------------
+ Minimize...............                 Cold start.............                 Proximal Point method..         1
+ Nonlinear objectiv vars         1       Objective Row..........         1       Function precision.....  3.00E-13
+ Unbounded step size....  1.00E+20       Superbasics limit......     56980       Difference interval....  5.48E-07
+ Unbounded objective....  1.00E+15       Reduced Hessian dim....      2000       Central difference int.  6.70E-05
+ Major step limit.......  2.00E+00       Derivative linesearch..                 Derivative option......         1
+ Major iterations limit.    100000       Linesearch tolerance...    .90000       Verify level...........        -1
+ Minor iterations limit.    100000       Penalty parameter......  0.00E+00       Major Print Level......         1
+                                         Major optimality tol...  2.00E-06
+
+ Hessian Approximation
+ ---------------------
+ Limited-Memory Hessian.                 Hessian updates........        10       Hessian frequency......  99999999
+                                                                                 Hessian flush..........  99999999
+
+ Nonlinear constraints
+ ---------------------
+ Nonlinear constraints..     40698       Major feasibility tol..  1.00E-06       Violation limit........  1.00E+06
+ Nonlinear Jacobian vars     56980
+
+ Miscellaneous
+ -------------
+ LU factor tolerance....      3.99       LU singularity tol.....  3.25E-11       Timing level...........         0
+ LU update tolerance....      3.99       LU swap tolerance......  1.22E-04       Debug level............         0
+ LU partial  pivoting...                 eps (machine precision)  2.22E-16       System information.....        No
+                                                                                 Sticky parameters......       Yes
+1
+ 
+
+ 
+
+ Matrix statistics
+ -----------------
+               Total      Normal        Free       Fixed     Bounded
+ Rows          40699           0           1       40696           2
+ Columns       56980           0           0        8540       48440
+
+ No. of matrix elements              1161461     Density       -.059
+ Biggest  constant element        0.0000E+00  (excluding fixed columns,
+ Smallest constant element        0.0000E+00   free rows, and RHS)
+
+ No. of objective coefficients             0
+
+ Nonlinear constraints   40698     Linear constraints       1
+ Nonlinear variables     56980     Linear variables         0
+ Jacobian  variables     56980     Objective variables      1
+ Total constraints       40699     Total variables      56980
+1
+ 
+
+ 
+ The user has defined 1161462   out of 1161462   first  derivatives
+1
+ 
+
+    Itn       LPmult  LPstep   nInf   SumInf             LPobjective   +SBS   -SBS    -BS    Pivot     L+U ncp
+    100      5.7E+07 1.5E-10    627  2.1E+00                          10475  10475  25764  3.4E-01  761836
+    200      1.9E+02 3.7E-10    184  2.0E-01                          17936  17936  66566 -1.3E-01  818361
+    300      2.1E+00 1.6E-03     80  1.5E-01                          10111  10111  74104 -2.1E+00  817751
+    400     -7.1E-06 4.9E-11      5  1.3E-01                          51983  51983        -1.0E+00  823203
+    500     -4.6E-06 4.9E-11      5  1.3E-01                          52865  52865        -1.0E+00  823203
+    600     -9.4E-07 4.9E-11      5  1.3E-01                          54054  54054        -1.0E+00  823203
+    700      9.8E-06 7.0E-02      5  1.3E-01                          54613  54613  25731 -7.0E-10  815057
+    800      2.3E-05 2.2E-02      5  1.3E-01                          55102  55102  25731 -2.3E-09  815012
+    900      7.7E-05 9.3E-01      5  1.3E-01                          56114  56114        -1.0E+00  814936
+   1000      5.3E+02 5.8E-10      4  1.3E-01                          25474  25474  56504 -2.9E+06  825536
+   1100      4.5E-05 1.1E-01      4  1.3E-01                          56845  56845        -1.0E+00  821819
+ 
+
+   Itns Major Minors    Step   nCon Feasible  Optimal  MeritFunction     L+U BSwap     nS  condHz Penalty
+   1128     0   1128              1  2.5E-03  1.7E-01  2.8644020E+08  813692                              _  r i
